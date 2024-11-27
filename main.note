@@ -1,0 +1,723 @@
+
+
+<ul>
+<li>
+    <a href="">Home</a>
+</li>
+<li>
+    <a href="">CONTACT</a>
+</li>
+<li>
+    <a href="">LOGIN</a>
+</li>
+</ul>
+
+-----------------------------------
+
+
+HOW DO WE WRITE CSS CODE 
+
+1. Selector / identify the element using 
+class or id to which element you want to affect
+2. h1 {
+   This is were you write your css code  
+}
+3. .headingText {
+    
+}
+
+-------------------------------
+
+HTML
+
+It use for representation of data
+How data will be structure
+
+Every HTML opening tag/element and a closing element/tag 
+eg <p> ></p>
+
+Also note that html also has what we call self closing tags 
+<hr/>
+<br/>
+
+Heading Tags 
+eg h1/h2/h3/h4/h5/h6 
+
+HTML structure
+CSS design the structure
+
+CSS 
+Inline 
+Embeded
+External (BEST)
+
+index.html 
+main.css 
+
+HOW TO WE WRITE CSS 
+
+1. we need to identify the element 
+2. we use the element name and open and close the curly bracket 
+3. we write all our css inside of the curly bracket 
+
+Tags
+Element 
+opening
+closing 
+special tag 
+self closing 
+
+<p>   Hello World </p>
+
+
+Learning how to uniquely identify HTML element 
+class 
+ID 
+attribute 
+
+StudentNames === Pascal Naming conversion
+
+studentNames === Camel Naming conversion
+
+CSS 
+Three types ways to write CSS 
+1. Internal 
+2. External 
+3. Embeded
+
+Create CSS 
+.css 
+main.css 
+Link CSS with my HTML 
+NB: we dont execute css files  
+we only execute HTML files 
+Link CSS inside the header element  
+-----------------------------------------
+
+
+HTML==>structure
+CSS==>style
+
+DATA  
+
+FORMS
+
+COLLECTION OF DATA FROM THE USER 
+
+DATA ==> CUSTOMER 
+
+like
+view
+comment 
+post
+video
+image
+-----------------
+
+DATA TYPES OF YOUR INPUT FILES 
+______________________________
+text 
+email
+password
+numbers
+image 
+file
+video 
+date 
+color 
+
+username and PIN 
+text         password 
+
+
+TWO TYPES OF WAYS DATA CAN BE TRANSFERED WHEN USING A FORM
+
+POST ==> Data will be transfer through the page
+GET  ==> Data will be transfer through the url 
+
+POST  ==> Sensitive data 
+GET ==> Non Sensitive data 
+-----------------------------------------------
+
+<nav>
+    <ul>
+        <li><a href="">HOME</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">SERVICES</a></li>
+    </ul>
+</nav>
+
+-------------------------------------------------
+
+Boostrap
+
+Library
+
+What and Why 
+
+Quickly design and customized responsive mobile first site 
+
+1. Giant Library
+2. Free personal or commercial
+3. Boostrap save you alot time coding 
+4. simple and easy to learn 
+5. It is powering alot of big site 
+6. Plug and play to all front end framework
+
+---------------------------------------
+
+BOOSTRATP GRID CLASSES
+
+ROW
+COL
+SCREEN SIZES 
+
+class="col" small devices with less than 576px
+class="col-sm" Greater than 578px or equal too 
+class="col-md" 768px
+class="col-lg" 992px
+class="col-xl" 1200px
+
+-------------------------------------
+
+HTML
+
+CSS
+
+BOOSTRATP
+
+JS
+
+REACT
+
+ANGULAR
+
+NODE
+
+EXPRESS
+
+DATABASE
+
+MYSQL
+
+MONGODB
+
+------------------------------
+
+sudo apt install nodejs
+
+node -v 
+
+sudo apt install npm 
+
+npm -v
+
+sudo apt-get update 
+
+sudo apt-get upgrade 
+
+step1
+
+sudo apt-get update 
+
+step2
+
+sudo apt-get upgrade 
+
+
+
+
+step3
+
+sudo apt install nodejs
+
+step4
+
+sudo apt install npm 
+
+node -v 
+
+npm -v
+------------------------------
+
+JAVASCRIPT
+------------------
+Web Browser 
+Node JS 
+
+HOW DOES THIS JS WORKS ?
+Interpreted  Lang 
+Compile Programming Lang
+JIT Programming Lang
+
+Just in Time 
+
+React
+Angular
+Vue
+------------
+Angular  15 Front
+React
+-------------
+Browser 
+Standard
+
+Client Side Programming Lang
+
+Server side Programming Lang
+
+
+Java / 20 Java 
+Python / 20 Python
+Nodejs
+--------------
+
+Run time environment Js 
+Nodejs
+
+JS 
+Full stack Developer
+10 
+MERN tech stack
+MEAN tech stack
+
+MONGO DB | EXPRESS | REACT | NODEJS 
+MONGO DB | EXPRESS | ANGULAR | NODEJS 
+
+Java script 
+Client/Server Programming Lang
+Environment
+Browser/Nodejs
+
+English ==> Byte code ==> Binary 
+Engine
+Chrome ==> V8 
+Firex ==> Spidermonkey
+Safari ==> JavaScriptCore
+IE ==> Chakra
+
+
+sideComponent
+CreatePost
+NavbarComponent 
+
+ANGULAR 
+ Play and display 
+ CRUD
+ 1. Create a search form which when we enter post ID we 
+    The content of the post will be fetch using the endpoint below 
+    https://jsonplaceholder.typicode.com/posts/1
+ 2. We need a button where if u click all the post will be fetch using the end
+    point below 
+    https://jsonplaceholder.typicode.com/posts
+ 3. We need to create a form that will be use to create a new post using the
+    the end point below 
+    https://jsonplaceholder.typicode.com/posts
+ 4. We need to create form that will allow us to make a partial update using 
+    the endpoin below 
+    https://jsonplaceholder.typicode.com/posts/1
+ 5. We need to create form that that when you enter the user id the post 
+    will be deleted using the endpoint below 
+    https://jsonplaceholder.typicode.com/posts/1
+
+-------------------------------------------
+
+console.log("Hello World");
+
+----------------------------------
+
+var age  = 90; // interger variable
+var surname = "Meriki" // string variable
+var salary = 9.6; // double variable
+var marriedStatus = false; // boolean variable
+
+console.log(age)
+console.log(surname)
+console.log(salary)
+console.log(marriedStatus)
+
+var num1 = 9000;
+var num2 = 60;
+console.log(num1 + num2);
+
+var userWhatsapStatus = "Hello Good People.";
+console.log(userWhatsapStatus);
+
+
+var studentName = "John Mary"
+var nameLength=studentName.length;
+console.log(nameLength > 5);
+
+var studentName = "Roy";
+console.log(studentName.length > 5);
+
+----------------------------------
+
+Statement 
+
+Create a JS code that and declear var and name the variable studentName 
+if the length of the student is greater than 5 characters
+let it print us true on the terminal 
+
+If the name is less than 5 characters let it print us false on the terminal.
+
+var studentName = "John Mary"
+var nameLength=studentName.length;
+console.log(nameLength > 5);
+
+var studentName = "Roy";
+console.log(studentName.length > 5);
+
+=========================
+
+Occuring at the same time
+
+Syn
+Asyn
+
+=======================
+14/10/2024
+
+OPERATORS
+
+Arithmetic Operators
++ - / % *
+Comparison Operators
+< check if value is less than 
+> check if value is greater than 
+<= >=  
+== Check Value 
+=== check value and data types 
+!== Value is not true / Type 
+!= variables is not equal too
+Logical Operators
+
+This going to base on evalution between value and variables 
+
+&& AND Both condition must be TRUE 
+|| OR  O ne of the two condition must be true
+! NOT None of the two condition is true 
+
+conditional statement
+-----------------------
+If() True cond 
+You condition get to be passed inside the round bracket
+Inside the curly bracket is where you pass the logic of your code 
+else if  More than one cond
+else Default/ False cond
+-------
+
+let username = "admin";
+let password = 1234905;
+
+if(username === "admin" && !(password === 12345) ){
+    console.log("Username is correct and password is not correct");
+
+}else if(password === 12345 && !(username === "admin")){
+    console.log("Password is correct and username is not correct");
+
+}else if (username === "admin" && password === 12345){
+    console.log("username and password is correct");
+}else{
+    console.log("System offline try again later")
+}
+----------
+
+et username = "Paul";
+let password = 1234905;
+
+if(username != "admin"){
+    console.log("Ok")
+}
+
+====================================
+
+const prompt = require("prompt-sync")({ sigint: true });
+
+function UserInput(desc) {
+  let userdata = prompt(desc);
+  return userdata;
+}
+
+
+function userRegistration() {
+  let username = UserInput("Enter username?... ");
+  let CheckUserNameLength = username.length;
+  let checkUernameSpecialChar = username.search('@')
+  if (CheckUserNameLength < 10 || CheckUserNameLength > 10) {
+    console.log("Username must be 10 Character Long");
+  }
+  else if (checkUernameSpecialChar == 0){
+    console.log("The username must have @ sysmbol")
+  }
+  else if(CheckUserNameLength === 10 && checkUernameSpecialChar > 0){
+            userpassword = UserInput("Enter password?... ")
+            let CheckPasswordLength = userpassword.length;
+            let checkPasswordSpecialChar = username.search('@')
+
+            if (CheckPasswordLength < 10 || CheckPasswordLength > 10) {
+                console.log("Password must be 10 Character Long");
+            }else if(checkPasswordSpecialChar == 0){
+                console.log("The Password must have @ sysmbol")
+
+            }else if(CheckUserNameLength === 10 && checkUernameSpecialChar > 0 && CheckPasswordLength === 10 && checkPasswordSpecialChar > 0){
+                console.log("You username is " + username + "You password is " + userpassword)
+              }
+  }else{
+    console.log("Error: Try again later")
+  }
+
+}
+
+userRegistration();
+------------------
+Guesing Game
+There will be a Lucky number assigned
+The App will promt the user to enter a Lucky number 
+If the lucky number the user enter is the same with the save lucky number 
+The system should tell them user congratulation
+
+The should give the user three chances try counting from the first loose to till last
+
+------------------
+
+// let userNames = ["Paul","Jones","Joe","Mary","Sam"]
+// for(let eachUserNames in userNames){
+//     console.log(userNames[eachUserNames])
+// }
+
+
+let userNames = ["Paul","Jones","Joe","Mary","Sam"]
+for(let eachUserNames in userNames){
+    if(userNames[eachUserNames] === "Jones"){
+        console.log("We found Jones")
+        break
+    }
+}
+
+------------
+
+const prompt = require("prompt-sync")({ sigint: true });
+// This the user login functionality
+function login(username, password){
+    if(username === "admin" && password === "12345"){
+        return true;
+    }
+}
+
+// this function collect data from the user
+function userInput(desc){
+    let userInput = String(prompt(desc))
+    return userInput
+}
+// store the dedault count values
+let loginCount = 0
+// our while loop to count the number of trial
+while(loginCount < 3){
+    username = userInput("Enter your name?.. ")
+    passsword = userInput("Enter your password?.. ")
+  if(login(username,passsword) != true){
+    console.log("Try again")
+    loginCount ++;
+  }else if(login(username,passsword) == true){
+    console.log("Login successfuly")
+    break;
+  }
+
+}
+
+--------------
+
+// Let it does not allow to redeclear a var 
+// var  // it will allow to redeclear a var 
+// const // will not allow you to redeclera and it will not allow you to changes
+// the value 
+
+
+=================
+
+constructor
+
+A constructor can refer to a person or thing that builds something,
+
+---
+
+const prompt = require("prompt-sync")({ sigint: true });
+
+class Student {
+  constructor(username, password) {
+    this.username = username;
+    this.password = password;
+  }
+
+  login(){
+    if(this.username === "admin" && this.password === "12345"){
+        return true;
+    }
+  }
+  submitAssignment(){
+    if(this.login()){
+        console.log("Assignment Submited")
+    }else{
+        console.log("Not Authorise")
+    }
+  }
+
+}
+
+let st1 =  new Student("admin","373737373")
+st1.submitAssignment()
+
+---
+Collect their Name
+collecting Day
+collecting Month 
+collecting Year
+Then we tell the user how old they will be in 40 years and 
+what will be the date in that 40 years 
+
+---
+// Person
+// username |  day | month | year
+// Method collect all this data and tell them how old they will be
+// in 40 years
+
+---
+GIT and Github
+React
+Angualar
+
+04/11/2024
+Angular  | OOP
+React | OOP 
+
+-----
+
+class Customer{
+
+constructor(username){
+    this.username = username
+}
+
+getUsername(){
+    return this.username;
+}
+
+setUsername(newUsername){
+    this.username = newUsername
+}
+
+}
+let user1 = new Customer()
+user1.setUsername("John Paul")
+user1.getUsername();
+
+----
+
+class Customer{
+ constructor(age){
+    this.age = age
+ }
+
+setAge(newAge){
+    if(newAge < 10){
+        console.log("Invalid Age")
+    }else{
+        this.age = newAge
+    }
+ }
+
+ getAge(){
+    return this.age
+ }
+
+
+
+
+}
+
+------
+
+const prompt = require("prompt-sync")({ sigint: true });
+
+class Auth{
+    constructor(username,password){
+        this.username = username;
+        this.password = password
+    }
+    setUsername(newUsername){
+        this.username = newUsername;
+    }
+    getUsername(){
+        return this.username
+    }
+    setPassword(newPassword){
+        this.password = newPassword;
+    }
+    getPassword(){
+        return this.password
+    }
+
+    login(){
+    if(this.getUsername() == "admin" && this.getPassword() == "12345") {
+        console.log("Ok")
+    }else{
+        console.log("Invalid Login")
+    }
+    }
+
+}
+
+let user1 = new Auth();
+user1.setUsername("John");
+user1.setPassword("12345");
+user1.login()
+
+----
+
+const prompt = require("prompt-sync")({ sigint: true });
+
+class Auth{
+    constructor(username,password){
+        this.username = username;
+        this.password = password
+    }
+    setUsername(newUsername){
+        this.username = newUsername;
+    }
+    getUsername(){
+        return this.username
+    }
+    setPassword(newPassword){
+        this.password = newPassword;
+    }
+    getPassword(){
+        return this.password
+    }
+
+    login(){
+    if(this.getUsername() == "admin" && this.getPassword() == "12345") {
+        console.log("Ok")
+    }else{
+        console.log("Invalid Login")
+    }
+    }
+
+}
+
+class Deposit extends Auth{
+
+display(){
+console.log("You username is " + this.getUsername())
+}
+
+}
+
+let user1 =  new Deposit();
+user1.setUsername("Admin")
+user1.display()
+
+----
+
+GIT (Version Control)
+GITHUB
